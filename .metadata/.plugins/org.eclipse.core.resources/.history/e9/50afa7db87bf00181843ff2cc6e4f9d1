@@ -1,0 +1,28 @@
+package nestedifelse;
+import java.util.Scanner;
+public class age {
+	int s,f;
+	Scanner s1=new Scanner (System.in);
+	void get1()
+	{
+		System.out.println("enter the age: ");
+		s=s1.nextInt();
+	}
+	void get2()
+	{
+		if(s>=60);
+		System.out.println("enter the salary:  ");
+	}
+		else
+		{
+			System.out.println("noo ");
+		}
+	public static void main(String[] args) {
+		age q=new age();
+		q.get1();
+		q.get2();
+		// TODO Auto-generated method stub
+
+	}
+
+}

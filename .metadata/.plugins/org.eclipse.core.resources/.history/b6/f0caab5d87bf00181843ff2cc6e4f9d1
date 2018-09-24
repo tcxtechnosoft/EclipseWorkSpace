@@ -1,0 +1,16 @@
+package nestedifelse;
+import java.util.Scanner;
+public class age {
+	int s,f;
+	Scanner s1=new Scanner (System.in);
+	void get1()
+	{
+		System.out.println("enter the age: ");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
