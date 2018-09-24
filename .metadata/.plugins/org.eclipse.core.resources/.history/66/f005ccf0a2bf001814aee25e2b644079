@@ -9,7 +9,6 @@ public class customer {
 		System.out.println("enter the name: ");
 		cn=(char) s1.nextInt();
 		
-		
 	}
 
 	public static void main(String[] args) {
