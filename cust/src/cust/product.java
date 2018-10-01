@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class product {
 	int p1,p2,p3;
 	String cn;
-	float percentage1,percentage;
+	double percentage1,percentage;
 	Scanner s1=new Scanner (System.in);
 	void get1()
 	{
@@ -22,8 +22,8 @@ public class product {
    void get2() {
     int k;
     k=(p1+p2+p3);
-    percentage = (k/10);
-    percentage1 = (k/2);
+    percentage = (k*0.1);
+    percentage1 = (k*0.05);
     	if(k>=2000)
     {
     		
@@ -32,9 +32,10 @@ public class product {
     }
     	else
     	{
-    		System.out.println("u have no disount on ur purchase: "+k);
+    		System.out.println("u have no 10% disount on ur purchase: "+k);
     	}
-    	if(k<=1000)
+    	
+    	if(k>=1000)
         {
         		
        	System.out.println("u have 5% disount on ur purchase: "+k);
@@ -44,6 +45,8 @@ public class product {
         	{
         		System.out.println("u have no disount on ur purchase: "+k);
         	}
+
+    	
     }
     
 	public static void main(String[] args) 
