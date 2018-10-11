@@ -20,6 +20,7 @@ public static void main(String[] args) {
     FindDuplicateInArray obj = new FindDuplicateInArray();
 
     obj.findDupicateInArray(array);
+    
 }
 
 public static int findDupicateInArray(int[] a) {
@@ -34,8 +35,8 @@ public static int findDupicateInArray(int[] a) {
              //  return -1;
                 
                 System.out.println("\n the duplicate value is"+a[k]);
-                System.out.println("\n and its corresponding index no. is"+k+":");
-
+                System.out.println("\n and it's corresponding index no. is : "+k+"  \n & the value copied from index "+j+"" );
+                System.out.println("\n dont underestimate the bearded MAN");
 
             }
 
