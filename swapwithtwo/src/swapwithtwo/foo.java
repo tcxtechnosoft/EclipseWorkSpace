@@ -1,7 +1,7 @@
 package swapwithtwo;
 
 import java.util.Scanner;
-/*
+
 public class foo {
 	int x,y;
 	Scanner g=new Scanner(System.in);
@@ -13,6 +13,7 @@ public class foo {
 	System.out.println("enter the value of y : \n");
 	y=g.nextInt();
 	}
+	void display()
 	{
 		 System.out.println("Before swap:");
 	        System.out.println("x value: "+x);
@@ -24,23 +25,22 @@ public class foo {
 	        System.out.println("x value: "+x);
 	        System.out.println("y value: "+y);
 }
-	{
-	class foo1 
-	}
+	
 
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 foo f= new foo ();
 f.input();
+f.display();
 	}
 	}
 	
-*/
 
 
 
 
 
+/*
 
 public class foo {
 	 
@@ -58,3 +58,4 @@ public class foo {
         System.out.println("y value: "+y);
     }
 }
+*/
