@@ -25,7 +25,7 @@ java_string=255,198,0
 matchingBracketsColor=96,109,118
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
-org.eclipse.jdt.ui.formatterprofiles.version=13
+org.eclipse.jdt.ui.formatterprofiles.version=14
 org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
